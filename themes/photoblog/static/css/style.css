@@ -1,0 +1,188 @@
+<style>
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.logo h1 {
+    font-family: Impact, Haettenschweiler, helvetica;
+    font-size: 1.5em;
+}
+
+h1.title {
+  font-size: 38px;
+  
+body {
+  margin: 0 auto;
+  width: min(1000px, calc(65% + 100px));
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+}
+
+
+h2 {
+  letter-spacing: 2px;
+  font-size: clamp(1.7rem, 2.2vw, 2.8rem);
+}
+
+
+h3 {
+  letter-spacing: 2px;
+  font-size: clamp(1.6rem, 2.0vw, 2.8rem);
+}
+
+
+h4 {
+  letter-spacing: 2px;
+  font-size: clamp(1.5rem, 1.8vw, 2.8rem);
+}
+
+
+h5 {
+  letter-spacing: 2px;
+  font-size: clamp(1.4rem, 1.6vw, 2.8rem);
+}
+
+h6 {
+  letter-spacing: 2px;
+  font-size: clamp(1.3rem, 1.4vw, 2.8rem);
+}
+
+
+p {
+  line-height: 1.5;
+  font-size: max(1.2rem, 1.2vw);
+}
+
+
+}
+
+.table th:not([align]) {
+  text-align: center;
+}
+
+.narrow-background {
+    display: table;
+    padding: 0.1em;
+}
+
+.AA:hover {
+	      background-color: #709be0;
+        border-radius: 100px;
+        }
+
+.BB:hover {
+	background-color: #e070d5;
+	border-radius: 100px;
+}
+
+.CC:hover {
+	background-color: #4eed54;
+	border-radius: 100px;
+}
+
+.DD:hover {
+	background-color: #e0b755;
+	border-radius: 100px;
+}
+
+.EE:hover {
+	background-color: #b3eb26;
+	border-radius: 100px;
+}
+
+
+.FF:hover {
+	background-color: #7fd2e3;
+	border-radius: 100px;
+}
+
+
+.GG:hover {
+	background-color: #48cf92;
+	border-radius: 100px;
+}
+
+
+.list {
+  display: row;
+  height: justify;
+  flex-wrap: wrap;
+  align-content: justify;
+  align-items: flex-start;
+  }
+
+
+.list > div{
+  background-color: #f3f4f5;
+  align-content: center;
+  width: 800px;
+  line-height: justify;
+  margin: 2px;
+  text-align: center;
+  line-height: 18px;
+  font-size: justify;
+  border-radius: 8px;
+  border: 1.5px solid black
+}
+
+
+header.page-header {
+    background: no-repeat left/cover url(/static/images/beach.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+#tag-cloud{
+  
+  color: red;
+}
+
+.star-img img {
+display: inline-block;
+height: 15em;
+width: 25em;
+}
+.box-shadow {
+color: red;
+box-shadow: 0.60em 0.60em 0.2em;
+}
+.drop-shadow {
+filter: drop-shadow(0.60em 0.60em 0.2em);
+}
+
+.p1 {
+  font-family: "helvetica;
+  color:steelblue;
+}
+
+.p2 {
+  font-family: "helvetica;
+  color:steelblue;
+}
+  
+}</style>

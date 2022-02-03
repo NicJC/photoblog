@@ -1,0 +1,13 @@
+baseURL = "https://photoblogshop.netlify.app"
+languageCode = "en-us"
+title = "My photo site"
+
+theme = "photoblog"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
