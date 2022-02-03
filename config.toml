@@ -1,4 +1,4 @@
-baseURL = "https://photoblogshop.netlify.app"
+baseURL = "https://photoblogshop.netlify.app/"
 languageCode = "en-us"
 title = "My photo site"
 
