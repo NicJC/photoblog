@@ -714,10 +714,37 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
-
+    
+   
 </style>
 
+<script>
 
+
+$(function(){
+  $('.repeat').click(function(){
+      var classes =  $(this).parent().attr('class');
+        $(this).parent().attr('class', 'animate');
+        var indicator = $(this);
+        setTimeout(function(){ 
+          $(indicator).parent().addClass(classes);
+        }, 20);
+    });
+});
+
+</script>  
+
+<div class="container">
+  <!--<div class="take-input">
+     <input type="text" placeholder="Write any text" />
+    <a href="javascript:void(0);">Enter Text</a>
+  </div>-->
+     <div class="animate word">
+       
+      <span>A</span><span>w</span><span>e</span><span>s</span><span>o</span><span>m</span><span>e</span><span> &nbsp;
+      </span><span>P</span><span>h</span><span>o</span><span>t</span><span>o</span><span>s</span><span>!</span>
+      
+</div>
 
 
 </html>
