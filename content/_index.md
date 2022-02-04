@@ -1,8 +1,6 @@
 ---
-title:
-
+title:Photoblog
 date: '2022-01-22'
-
 ---
 
 
