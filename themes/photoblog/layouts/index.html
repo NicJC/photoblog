@@ -40,6 +40,20 @@
       </ul>
 
     </nav>
+    
+    
+    <script type="text/javascript">
+
+// Google Internal Site Search script II- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+function Gsitesearch(curobj){
+var domainroot=curobj.domainroot[curobj.domainroot.selectedIndex].value
+curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+</script>
 
   <style>
 
@@ -731,6 +745,10 @@ $(function(){
         }, 20);
     });
 });
+
+
+
+
 
 </script>  
 
