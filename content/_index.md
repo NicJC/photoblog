@@ -1,6 +1,8 @@
 ---
-title:Photoblog
+title:
+
 date: '2022-01-22'
+
 ---
 
 
@@ -11,9 +13,6 @@ background-color: rgb(192, 192, 192);
 }
 
 </style>
-
-
-
 
 
 
