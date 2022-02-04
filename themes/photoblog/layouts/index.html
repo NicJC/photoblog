@@ -717,69 +717,6 @@ img.mfp-img {
 
 </style>
 
-<div class="container">
-  
-  <h1>Some of our recent stuff, click on photos to see more ...</h1>
-  
-		<p><section class="img-gallery-magnific">
-			<div class="magnific-img">
-				<a class="image-popup-vertical-fit"  title="9.jpg">
-					<img src="images/waiuku forest beach3.jpg" alt="beach view" width="100%" />
-					<i class="fa fa-search-plus" aria-hidden="true"></i>
-				</a>
-			</div>
-			<div class="magnific-img">
-				<a class="image-popup-vertical-fit"  title="10.jpg">
-					<img src="images/waiuku forest beach.jpg" alt="black sand" width="100%"" />
-					<i class="fa fa-search-plus" aria-hidden="true"></i>
-				</a>
-			</div>
-
-			<div class="magnific-img">
-				<a class="image-popup-vertical-fit"  title="15.jpg">
-					<img src="images/manakau heads1.jpg" alt="manakau heads" width="100%" />
-					<i class="fa fa-search-plus" aria-hidden="true"></i>
-				</a>
-			</div>
-			<div class="magnific-img">
-				<a class="image-popup-vertical-fit"  title="16.jpg">
-					<img src="images/manakau heads.jpg" alt="Awesome beach" width="100%" />
-					<i class="fa fa-search-plus" aria-hidden="true"></i>
-				</a>
-			</div>
-		</section>
-		<div class="clear"></div>
-	</p>
-
-</div>
-
-<script>
-  
-  $(document).ready(function(){
-$('.image-popup-vertical-fit').magnificPopup({
-	type: 'image',
-  mainClass: 'mfp-with-zoom', 
-  gallery:{
-			enabled:true
-		},
-
-  zoom: {
-    enabled: true, 
-
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function
-
-    opener: function(openerElement) {
-
-      return openerElement.is('img') ? openerElement : openerElement.find('img');
-  }
-}
-
-});
-
-});
-  
-</script>
 
 
 </html>
