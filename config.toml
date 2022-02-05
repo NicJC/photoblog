@@ -7,6 +7,16 @@ theme = "photoblog"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+  
+  
+  
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
