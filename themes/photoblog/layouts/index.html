@@ -8,6 +8,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> 
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <link
 
@@ -15,7 +17,7 @@
       
  <link rel="stylesheet" href="style.css" />
  
-
+<link rel="stylesheet" href="mystyle.scss"/>
   
 
     <title>Home</title>
@@ -38,24 +40,27 @@
 
 
       </ul>
+      
+      <div class = "logo">
+        
+        <img src="images/favicon.png" alt="nic" width="15%"/>
+        
+        
+      </div>
 
     </nav>
     
-    
-    <script type="text/javascript">
 
-// Google Internal Site Search script II- By JavaScriptKit.com (http://www.javascriptkit.com)
-// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
-// This notice must stay intact for use
 
-function Gsitesearch(curobj){
-var domainroot=curobj.domainroot[curobj.domainroot.selectedIndex].value
-curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
-}
-
-</script>
 
   <style>
+  
+  
+  body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
 
 
 .container {
@@ -200,6 +205,11 @@ a.repeat:hover {
   }
 }
 
+img {
+    float: right;
+    border-radius: 15px;
+}
+
 * {
 
   margin: 0px;
@@ -298,7 +308,7 @@ nav {
 
 
 body {
-  background-color: rgb(192, 192, 192);
+  background: rgb(192, 192, 192);
   font-family: 'Outfit', sans-serif;
 }
 
@@ -746,7 +756,15 @@ $(function(){
     });
 });
 
-
+anime({
+  targets: '.line-drawing-demo .lines path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});
 
 
 
